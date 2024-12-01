@@ -1,0 +1,7 @@
+2024-12-01 23:53:08,944 <-> WARNING <-> Не верная скорость для Runner
+Traceback (most recent call last):
+  File "C:\PythonProjects\module_12\module_12_4\runner_test.py", line 13, in test_walk
+    runner = Runner('Duck', speed=-4)
+  File "C:\PythonProjects\module_12\module_12_4\rt_with_exceptions.py", line 11, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -4
